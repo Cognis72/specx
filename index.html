@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SpecX Dev Pack</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark">
+
+<header>
+  <div class="nav-logo">SpecX</div>
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  <nav id="nav">
+    <a href="#" data-th="หน้าแรก" data-en="Home">หน้าแรก</a>
+    <a href="#" data-th="เกี่ยวกับเรา" data-en="About">เกี่ยวกับเรา</a>
+    <a href="#" data-th="สินค้า" data-en="Products">สินค้า</a>
+    <a href="#" data-th="ติดต่อ" data-en="Contact">ติดต่อ</a>
+  </nav>
+</header>
+
+<div class="controls">
+  <button class="toggle-btn" onclick="toggleTheme()">🌓 Toggle Mode</button>
+  <button class="toggle-btn" onclick="toggleLang()">🌐 Toggle Language</button>
+</div>
+
+<div class="container">
+    <div class="card" data-price="4500">
+        <img src="product-mockup.jpg" alt="Lenovo M720T">
+        <div class="card-body">
+            <div class="card-title">Lenovo M720T</div>
+            <div class="card-price">ราคา 4,500 บาท</div>
+            <p style="font-size: 14px; color: var(--text-color);">Core i3-8100 / RAM 4GB / HDD 500GB</p>
+            <a class="cta" href="https://page.line.me/056uzwsk" target="_blank">📲 สั่งซื้อผ่าน LINE</a>
+
+        </div>
+    </div>
+    
+    <div class="card" data-price="4300">
+        <img src="product-mockup.jpg" alt="Lenovo M720T">
+        <div class="card-body">
+            <div class="card-title">Lenovo M720T</div>
+            <div class="card-price">ราคา 4,300 บาท</div>
+            <p style="font-size: 14px; color: var(--text-color);">Core i3-8100 / RAM 4GB / HDD 500GB</p>
+            <a class="cta" href="https://page.line.me/056uzwsk" target="_blank">📲 สั่งซื้อผ่าน LINE</a>
+
+        </div>
+    </div>
+    
+    <div class="card" data-price="3900">
+        <img src="product-mockup.jpg" alt="Lenovo M82">
+        <div class="card-body">
+            <div class="card-title">Lenovo M82</div>
+            <div class="card-price">ราคา 3,900 บาท</div>
+            <p style="font-size: 14px; color: var(--text-color);">Core i3-3220 / RAM 4GB / HDD 500GB</p>
+            <a class="cta" href="https://page.line.me/056uzwsk" target="_blank">📲 สั่งซื้อผ่าน LINE</a>
+
+        </div>
+    </div>
+    
+    <div class="card" data-price="2900">
+        <img src="product-mockup.jpg" alt="HP 800 G1">
+        <div class="card-body">
+            <div class="card-title">HP 800 G1</div>
+            <div class="card-price">ราคา 2,900 บาท</div>
+            <p style="font-size: 14px; color: var(--text-color);">Core i5-4570 / RAM 4GB / HDD 500GB</p>
+            <a class="cta" href="https://page.line.me/056uzwsk" target="_blank">📲 สั่งซื้อผ่าน LINE</a>
+
+        </div>
+    </div>
+    
+    <div class="card" data-price="2900">
+        <img src="product-mockup.jpg" alt="HP 800 G1">
+        <div class="card-body">
+            <div class="card-title">HP 800 G1</div>
+            <div class="card-price">ราคา 2,900 บาท</div>
+            <p style="font-size: 14px; color: var(--text-color);">Core i5-4570 / RAM 4GB / HDD 500GB</p>
+            <a class="cta" href="https://page.line.me/056uzwsk" target="_blank">📲 สั่งซื้อผ่าน LINE</a>
+
+        </div>
+    </div>
+    
+    <div class="card" data-price="6900">
+        <img src="product-mockup.jpg" alt="DELL 3020 / Lenovo">
+        <div class="card-body">
+            <div class="card-title">DELL 3020 / Lenovo</div>
+            <div class="card-price">ราคา 6,900 บาท</div>
+            <p style="font-size: 14px; color: var(--text-color);">Core i5-4570 / RAM 8GB / SSD 240GB</p>
+            <a class="cta" href="https://page.line.me/056uzwsk" target="_blank">📲 สั่งซื้อผ่าน LINE</a>
+
+        </div>
+    </div>
+    
+    <div class="card" data-price="6900">
+        <img src="product-mockup.jpg" alt="DELL 3020 / Lenovo">
+        <div class="card-body">
+            <div class="card-title">DELL 3020 / Lenovo</div>
+            <div class="card-price">ราคา 6,900 บาท</div>
+            <p style="font-size: 14px; color: var(--text-color);">Core i5-4570 / RAM 8GB / SSD 240GB</p>
+            <a class="cta" href="https://page.line.me/056uzwsk" target="_blank">📲 สั่งซื้อผ่าน LINE</a>
+
+        </div>
+    </div>
+    
+    <div class="card" data-price="7990">
+        <img src="product-mockup.jpg" alt="DELL 3020 / Lenovo">
+        <div class="card-body">
+            <div class="card-title">DELL 3020 / Lenovo</div>
+            <div class="card-price">ราคา 7,990 บาท</div>
+            <p style="font-size: 14px; color: var(--text-color);">Core i5-4570 / RAM 8GB / SSD 240GB + HDD 500GB</p>
+            <a class="cta" href="https://page.line.me/056uzwsk" target="_blank">📲 สั่งซื้อผ่าน LINE</a>
+
+        </div>
+    </div>
+    
+    <div class="card" data-price="4900">
+        <img src="product-mockup.jpg" alt="HP 800 G2">
+        <div class="card-body">
+            <div class="card-title">HP 800 G2</div>
+            <div class="card-price">ราคา 4,900 บาท</div>
+            <p style="font-size: 14px; color: var(--text-color);">Core i5-6500 / RAM 8GB / SSD 240GB</p>
+            <a class="cta" href="https://page.line.me/056uzwsk" target="_blank">📲 สั่งซื้อผ่าน LINE</a>
+
+        </div>
+    </div>
+    
+    <div class="card" data-price="4900">
+        <img src="product-mockup.jpg" alt="HP 800 G2">
+        <div class="card-body">
+            <div class="card-title">HP 800 G2</div>
+            <div class="card-price">ราคา 4,900 บาท</div>
+            <p style="font-size: 14px; color: var(--text-color);">Core i5-6500 / RAM 8GB / SSD 240GB</p>
+            <a class="cta" href="https://page.line.me/056uzwsk" target="_blank">📲 สั่งซื้อผ่าน LINE</a>
+
+        </div>
+    </div>
+    
+  <div class="card">
+    <img src="product-mockup.jpg" alt="SpecX Starter">
+    <div class="card-body">
+      <div class="card-title" data-th="SpecX Starter" data-en="SpecX Starter">SpecX Starter</div>
+      <div class="card-price" data-th="เริ่มต้นที่ 3,500 บาท" data-en="Starts at 3,500 THB">เริ่มต้นที่ 3,500 บาท</div>
+     <a class="cta" href="https://page.line.me/056uzwsk" target="_blank">📲 สั่งซื้อผ่าน LINE</a>
+
+    </div>
+  </div>
+  <div class="card">
+    <img src="product-mockup.jpg" alt="SpecX Pro">
+    <div class="card-body">
+      <div class="card-title" data-th="SpecX Pro" data-en="SpecX Pro">SpecX Pro</div>
+      <div class="card-price" data-th="ราคา 4,900 บาท" data-en="Price: 4,900 THB">ราคา 4,900 บาท</div>
+      <a class="cta" href="https://page.line.me/056uzwsk" target="_blank">📲 สั่งซื้อผ่าน LINE</a>
+
+    </div>
+  </div>
+  <div class="card">
+    <img src="product-mockup.jpg" alt="SpecX Ultra">
+    <div class="card-body">
+      <div class="card-title" data-th="SpecX Ultra" data-en="SpecX Ultra">SpecX Ultra</div>
+      <div class="card-price" data-th="ราคา 5,900 บาท" data-en="Price: 5,900 THB">ราคา 5,900 บาท</div>
+      <a class="cta" href="https://page.line.me/056uzwsk" target="_blank">📲 สั่งซื้อผ่าน LINE</a>
+
+    </div>
+  </div>
+</div>
+
+<footer>
+  <span data-th="© 2025 SpecX. สงวนลิขสิทธิ์." data-en="© 2025 SpecX. All rights reserved.">© 2025 SpecX. สงวนลิขสิทธิ์.</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+put the line link taht i sent you into the website
+type it out for me dontmake a file put this line link https://page.line.me/056uzwsk into the website
